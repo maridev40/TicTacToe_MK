@@ -1,0 +1,44 @@
+.Broadlist {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.addBroad {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.board-list-box {
+    display: table;
+}
+.board-list-title {
+    display: table-row;
+    &__cell {
+        display: table-cell;
+        border: 1px solid;
+        background-color: $colorTableTitle;
+    }
+}
+
+.board-list-row {
+    display: table-row;
+    &__cell {
+        display: table-cell;
+        border: 1px solid;
+    }
+}
+
+.activeBroad {
+    background-color: $colorReadyToPlay;
+}
+
+.add-board-box {
+    display: table;
+}
+.add-board-row {
+    display: table-row;
+    &__cell {
+        display: table-cell;
+    }
+}

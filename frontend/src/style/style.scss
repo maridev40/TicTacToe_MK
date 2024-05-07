@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import 'vars';
+@import 'mixins';
+@import 'base';
+@import 'error';
+@import 'main';
+@import 'user';
+@import 'userlist';
+@import 'broadlist';
+@import 'broad';
+@import 'cell';
+@import 'messager';
+
+@media (max-width: $tabletWidth) {
+    .center {
+        padding-left: calc(50% - $tableCalcWidth);
+        padding-right: calc(50% - $tableCalcWidth);
+    }
+
+}
+
+.visibledModule {
+    display: none;
+}

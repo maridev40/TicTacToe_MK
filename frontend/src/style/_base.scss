@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Lato;
+    overflow-x: hidden;
+}
+
+.center {
+    padding-left: calc(50% - $siteCalcWidth / 2);
+    padding-right: calc(50% - $siteCalcWidth / 2);
+}
+
+.broad-data-row {
+    @include flexRow();
+}
+

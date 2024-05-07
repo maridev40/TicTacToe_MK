@@ -1,0 +1,12 @@
+.Cell {
+    border: 2px solid #EAEAEA;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winCell {
+    border: 2px solid red;
+}

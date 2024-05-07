@@ -1,0 +1,20 @@
+.User {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.user-set-box {
+    display: table;
+}
+.user-set-row {
+    display: table-row;
+    &__cell {
+        display: table-cell;
+    }
+}
+
+.user-set-command {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
